@@ -1,0 +1,99 @@
+/*
+Theme Name: Valids Theme
+Author: Valid
+Author URI: https://pollak.hu/
+Description: Egyedi Theme orai munkara
+Version: -
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+*/
+.my-logo,
+body{
+    color: black;
+}
+footer {
+    width: 100%;
+    padding-left: 1%;
+    margin-bottom: 8px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+
+header {
+    color: black;
+}
+
+body > header > h1 > a {
+    color: #ffffff;
+    font-weight: 400;
+}
+
+article > header {
+}
+
+footer {
+    margin-top: 4px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrap {
+    width: 99%;
+    margin: 0 auto;
+}
+
+.content-area {
+    display: inline-block;
+}
+
+.content-thin {
+    width: 70%;
+}
+
+.content-full-width {
+    width: 100%;
+}
+
+.content-area,
+.primary-sidebar {
+    display: inline-block;
+}
+
+.primary-sidebar {
+    width: 25%;
+    padding: 1%;
+    vertical-align: top;
+    background-color: black;
+    color: white;
+}
+
+.article-loop {
+    width: 45%;
+    text-align: left;
+    margin: 5px;
+    padding: 10px;
+}
+
+.article-full {
+    width: 99%;
+    padding: 1%;
+}
+
+.article-loop,
+.article-full {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #bababa;
+    border-radius: 4px;
+    margin-bottom: 4px;
+}
+
+@media screen and (max-width: 400px) {
+    .content-area,
+    .primary-sidebar {
+        width: 100%;
+    }
+}
